@@ -1,0 +1,40 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-03e3f588eec25344c",
+    "Name": "AWS-CentOSDefaultPatchBaseline",
+    "OperatingSystem": "CENTOS",
+    "GlobalFilters": {
+        "PatchFilters": []
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "PRODUCT",
+                            "Values": [
+                                "*"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": true
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [
+        "aws",
+        "abc"
+    ],
+    "CreatedDate": "2018-03-29T17:38:12.515000+00:00",
+    "ModifiedDate": "2018-03-29T17:38:12.515000+00:00",
+    "Description": "Default Patch Baseline for CentOS Provided by AWS.",
+    "Sources": []
+}

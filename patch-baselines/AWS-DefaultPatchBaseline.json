@@ -1,0 +1,52 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-09ca3fb51f0412ec3",
+    "Name": "AWS-DefaultPatchBaseline",
+    "OperatingSystem": "WINDOWS",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "PRODUCT",
+                "Values": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "CriticalUpdates",
+                                "SecurityUpdates"
+                            ]
+                        },
+                        {
+                            "Key": "MSRC_SEVERITY",
+                            "Values": [
+                                "Critical",
+                                "Important"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [],
+    "CreatedDate": "2018-05-01T17:13:20.068000+00:00",
+    "ModifiedDate": "2018-05-01T17:13:20.068000+00:00",
+    "Description": "Default Patch Baseline Provided by AWS.",
+    "Sources": []
+}

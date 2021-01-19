@@ -1,0 +1,47 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0ee4f94581368c0d4",
+    "Name": "AWS-MacOSDefaultPatchBaseline",
+    "OperatingSystem": "MACOS",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "PRODUCT",
+                "Values": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "softwareupdate",
+                                "installer",
+                                "brew",
+                                "brew_cask"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [],
+    "CreatedDate": "2020-04-17T02:52:57.992000+00:00",
+    "ModifiedDate": "2020-04-17T02:52:57.992000+00:00",
+    "Description": "Default Patch Baseline for MacOS Provided by AWS.",
+    "Sources": []
+}

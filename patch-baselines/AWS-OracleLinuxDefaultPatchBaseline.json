@@ -1,0 +1,69 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-06bff38e95fe85c02",
+    "Name": "AWS-OracleLinuxDefaultPatchBaseline",
+    "OperatingSystem": "ORACLE_LINUX",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "PRODUCT",
+                "Values": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "Security"
+                            ]
+                        },
+                        {
+                            "Key": "SEVERITY",
+                            "Values": [
+                                "Important",
+                                "Moderate"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            },
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "Enhancement",
+                                "Bugfix"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [
+        "aws"
+    ],
+    "CreatedDate": "2020-04-29T22:40:27.707000+00:00",
+    "ModifiedDate": "2020-04-29T22:40:27.707000+00:00",
+    "Description": "Default Patch Baseline for Oracle Linux Server Provided by AWS.",
+    "Sources": []
+}
