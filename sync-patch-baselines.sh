@@ -2,8 +2,8 @@
 
 directory="./patch-baselines"
 mkdir -p $directory
-aws ssm describe-patch-baselines > describe-patch-baselins.json
-baselineIds=`cat describe-patch-baselins.json | jq -r '.BaselineIdentities[].BaselineId'`
+aws ssm describe-patch-baselines > describe-patch-baselines.json
+baselineIds=`cat describe-patch-baselines.json | jq -r '.BaselineIdentities[].BaselineId'`
 
 for baselineId in $baselineIds
 do
