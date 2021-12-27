@@ -71,6 +71,13 @@
             "DefaultBaseline": true
         },
         {
+            "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0ec16280999c5c75e",
+            "BaselineName": "AWS-RaspbianDefaultPatchBaseline",
+            "OperatingSystem": "RASPBIAN",
+            "BaselineDescription": "Default Patch Baseline for Raspbian Provided by AWS.",
+            "DefaultBaseline": true
+        },
+        {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0ee4f94581368c0d4",
             "BaselineName": "AWS-MacOSDefaultPatchBaseline",
             "OperatingSystem": "MACOS",

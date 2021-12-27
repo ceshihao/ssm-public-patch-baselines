@@ -1,0 +1,48 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0ec16280999c5c75e",
+    "Name": "AWS-RaspbianDefaultPatchBaseline",
+    "OperatingSystem": "RASPBIAN",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "PRODUCT",
+                "Values": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "PRIORITY",
+                            "Values": [
+                                "Required",
+                                "Important",
+                                "Standard",
+                                "Optional",
+                                "Extra"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [],
+    "CreatedDate": "2021-07-21T19:19:22.080000+00:00",
+    "ModifiedDate": "2021-07-21T19:19:22.080000+00:00",
+    "Description": "Default Patch Baseline for Raspbian Provided by AWS.",
+    "Sources": []
+}
