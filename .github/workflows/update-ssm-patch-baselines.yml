@@ -2,6 +2,7 @@ name: schedule to update ssm patch baselines
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * 0'
 
