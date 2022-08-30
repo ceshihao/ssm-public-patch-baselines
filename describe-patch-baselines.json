@@ -8,6 +8,13 @@
             "DefaultBaseline": true
         },
         {
+            "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-03ec98bc512aa3ac0",
+            "BaselineName": "AWS-RockyLinuxDefaultPatchBaseline",
+            "OperatingSystem": "ROCKY_LINUX",
+            "BaselineDescription": "Default Patch Baseline for Rocky Linux Provided by AWS.",
+            "DefaultBaseline": true
+        },
+        {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-06bff38e95fe85c02",
             "BaselineName": "AWS-OracleLinuxDefaultPatchBaseline",
             "OperatingSystem": "ORACLE_LINUX",
