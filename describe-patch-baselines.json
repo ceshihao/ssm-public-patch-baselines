@@ -1,6 +1,13 @@
 {
     "BaselineIdentities": [
         {
+            "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0028ca011460d5eaf",
+            "BaselineName": "AWS-AmazonLinux2022DefaultPatchBaseline",
+            "OperatingSystem": "AMAZON_LINUX_2022",
+            "BaselineDescription": "Default Patch Baseline for Amazon Linux 2022 Provided by AWS.",
+            "DefaultBaseline": true
+        },
+        {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-03e3f588eec25344c",
             "BaselineName": "AWS-CentOSDefaultPatchBaseline",
             "OperatingSystem": "CENTOS",
