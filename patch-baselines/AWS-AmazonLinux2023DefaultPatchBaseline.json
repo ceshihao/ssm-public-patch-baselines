@@ -1,0 +1,66 @@
+{
+    "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-05c9c9bf778d4c4d0",
+    "Name": "AWS-AmazonLinux2023DefaultPatchBaseline",
+    "OperatingSystem": "AMAZON_LINUX_2023",
+    "GlobalFilters": {
+        "PatchFilters": [
+            {
+                "Key": "PRODUCT",
+                "Values": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "ApprovalRules": {
+        "PatchRules": [
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "Security"
+                            ]
+                        },
+                        {
+                            "Key": "SEVERITY",
+                            "Values": [
+                                "Critical",
+                                "Important"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            },
+            {
+                "PatchFilterGroup": {
+                    "PatchFilters": [
+                        {
+                            "Key": "CLASSIFICATION",
+                            "Values": [
+                                "Bugfix"
+                            ]
+                        }
+                    ]
+                },
+                "ComplianceLevel": "UNSPECIFIED",
+                "ApproveAfterDays": 7,
+                "EnableNonSecurity": false
+            }
+        ]
+    },
+    "ApprovedPatches": [],
+    "ApprovedPatchesComplianceLevel": "UNSPECIFIED",
+    "ApprovedPatchesEnableNonSecurity": false,
+    "RejectedPatches": [],
+    "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
+    "PatchGroups": [],
+    "CreatedDate": "2023-03-14T17:08:36.790000+00:00",
+    "ModifiedDate": "2023-03-14T17:08:36.790000+00:00",
+    "Description": "Default Patch Baseline for Amazon Linux 2023 Provided by AWS.",
+    "Sources": []
+}

@@ -22,6 +22,13 @@
             "DefaultBaseline": true
         },
         {
+            "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-05c9c9bf778d4c4d0",
+            "BaselineName": "AWS-AmazonLinux2023DefaultPatchBaseline",
+            "OperatingSystem": "AMAZON_LINUX_2023",
+            "BaselineDescription": "Default Patch Baseline for Amazon Linux 2023 Provided by AWS.",
+            "DefaultBaseline": true
+        },
+        {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-06bff38e95fe85c02",
             "BaselineName": "AWS-OracleLinuxDefaultPatchBaseline",
             "OperatingSystem": "ORACLE_LINUX",
@@ -40,7 +47,7 @@
             "BaselineName": "AWS-WindowsPredefinedPatchBaseline-OS",
             "OperatingSystem": "WINDOWS",
             "BaselineDescription": "Approves all Windows Server operating system patches that are classified as CriticalUpdates or SecurityUpdates and that have an MSRC severity of Critical or Important. Patches are auto-approved seven days after release.",
-            "DefaultBaseline": true
+            "DefaultBaseline": false
         },
         {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-09a5f8eb62bde80b1",
@@ -103,7 +110,7 @@
             "BaselineName": "AWS-WindowsPredefinedPatchBaseline-OS-Applications",
             "OperatingSystem": "WINDOWS",
             "BaselineDescription": "For the Windows Server operating system, approves all patches that are classified as CriticalUpdates or SecurityUpdates and that have an MSRC severity of Critical or Important. For Microsoft applications, approves all patches. Patches are auto-approved seven days after release.",
-            "DefaultBaseline": false
+            "DefaultBaseline": true
         }
     ]
 }
