@@ -85,6 +85,13 @@
             "DefaultBaseline": true
         },
         {
+            "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0cb0c4966f86b059b",
+            "BaselineName": "AWS-AlmaLinuxDefaultPatchBaseline",
+            "OperatingSystem": "ALMA_LINUX",
+            "BaselineDescription": "Default Patch Baseline for Alma Linux Provided by AWS.",
+            "DefaultBaseline": true
+        },
+        {
             "BaselineId": "arn:aws:ssm:us-east-1:075727635805:patchbaseline/pb-0cbb3a633de00f07c",
             "BaselineName": "AWS-RedHatDefaultPatchBaseline",
             "OperatingSystem": "REDHAT_ENTERPRISE_LINUX",
