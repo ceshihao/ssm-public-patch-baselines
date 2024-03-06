@@ -59,9 +59,7 @@
     "ApprovedPatchesEnableNonSecurity": false,
     "RejectedPatches": [],
     "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
-    "PatchGroups": [
-        "aws"
-    ],
+    "PatchGroups": [],
     "CreatedDate": "2020-04-29T22:40:27.707000+00:00",
     "ModifiedDate": "2020-04-29T22:40:27.707000+00:00",
     "Description": "Default Patch Baseline for Oracle Linux Server Provided by AWS.",

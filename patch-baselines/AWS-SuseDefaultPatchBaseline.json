@@ -43,9 +43,7 @@
     "ApprovedPatchesEnableNonSecurity": false,
     "RejectedPatches": [],
     "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
-    "PatchGroups": [
-        "aws"
-    ],
+    "PatchGroups": [],
     "CreatedDate": "2018-05-01T17:13:20.069000+00:00",
     "ModifiedDate": "2018-05-01T17:13:20.069000+00:00",
     "Description": "Default Patch Baseline for Suse Provided by AWS.",

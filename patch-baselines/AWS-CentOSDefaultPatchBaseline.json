@@ -29,10 +29,7 @@
     "ApprovedPatchesEnableNonSecurity": false,
     "RejectedPatches": [],
     "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
-    "PatchGroups": [
-        "aws",
-        "abc"
-    ],
+    "PatchGroups": [],
     "CreatedDate": "2018-03-29T17:38:12.515000+00:00",
     "ModifiedDate": "2018-03-29T17:38:12.515000+00:00",
     "Description": "Default Patch Baseline for CentOS Provided by AWS.",
