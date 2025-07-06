@@ -54,5 +54,6 @@
     "CreatedDate": "2019-05-07T18:32:23.887000+00:00",
     "ModifiedDate": "2019-05-07T18:32:23.887000+00:00",
     "Description": "Approves all Windows Server operating system patches that are classified as CriticalUpdates or SecurityUpdates and that have an MSRC severity of Critical or Important. Patches are auto-approved seven days after release.",
-    "Sources": []
+    "Sources": [],
+    "AvailableSecurityUpdatesComplianceStatus": "NON_COMPLIANT"
 }
