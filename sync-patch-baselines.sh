@@ -2,7 +2,7 @@
 
 directory="./patch-baselines"
 mkdir -p $directory
-aws ssm describe-patch-baselines > describe-patch-baselines.json
+aws ssm describe-patch-baselines --filters Key=OWNER,Values=AWS > describe-patch-baselines.json
 baselineIds=`cat describe-patch-baselines.json | jq -r '.BaselineIdentities[].BaselineId'`
 
 for baselineId in $baselineIds
