@@ -117,7 +117,7 @@
             "BaselineName": "AWS-WindowsPredefinedPatchBaseline-OS-Applications",
             "OperatingSystem": "WINDOWS",
             "BaselineDescription": "For the Windows Server operating system, approves all patches that are classified as CriticalUpdates or SecurityUpdates and that have an MSRC severity of Critical or Important. For Microsoft applications, approves all patches. Patches are auto-approved seven days after release.",
-            "DefaultBaseline": true
+            "DefaultBaseline": false
         }
     ]
 }
