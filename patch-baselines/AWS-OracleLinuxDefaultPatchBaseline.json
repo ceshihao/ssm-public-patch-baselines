@@ -26,6 +26,7 @@
                         {
                             "Key": "SEVERITY",
                             "Values": [
+                                "Critical",
                                 "Important",
                                 "Moderate"
                             ]
@@ -60,8 +61,8 @@
     "RejectedPatches": [],
     "RejectedPatchesAction": "ALLOW_AS_DEPENDENCY",
     "PatchGroups": [],
-    "CreatedDate": "2020-04-29T22:40:27.707000+00:00",
-    "ModifiedDate": "2020-04-29T22:40:27.707000+00:00",
+    "CreatedDate": "2025-12-10T17:35:09.340000+00:00",
+    "ModifiedDate": "2025-12-10T17:35:09.340000+00:00",
     "Description": "Default Patch Baseline for Oracle Linux Server Provided by AWS.",
     "Sources": []
 }
